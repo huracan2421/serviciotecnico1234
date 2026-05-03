@@ -3,16 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Servicio Técnico Computación 1234 - Reparación de PCs, Notebooks, Limpieza, Mantenimiento y más en Iquique">
-  <title>Servicio Técnico Computación 1234</title>
+  <meta name="description" content="Servicio Técnico Computación 1234 en Iquique. Reparación de PCs, notebooks, cambio de pantalla, limpieza y mantenimiento. Atención rápida y profesional.">
+  <meta name="keywords" content="servicio técnico Iquique, reparación PCs Iquique, reparación notebooks Iquique, mantenimiento computadores Iquique, armado PC Iquique">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Servicio Técnico Computación 1234">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Servicio Técnico Computación 1234 | Reparación en Iquique">
+  <meta property="og:description" content="Reparación rápida de computadoras y notebooks en Iquique. ¡Contáctanos!">
+  <meta property="og:image" content="https://tudominio.com/images/edubecam.png">
+  <meta property="og:url" content="https://tudominio.com">
+  <meta property="og:type" content="website">
+
+  <title>Servicio Técnico Computación 1234 | Reparación PCs y Notebooks en Iquique</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="canonical" href="https://tudominio.com">
 </head>
 <body>
-  <!-- ==================== NAVEGACIÓN (ya corregida) ==================== -->
+
+  <!-- NAVEGACIÓN -->
   <nav>
     <div class="nav-container">
       <div class="logo-container">
-        <img src="images/edubecam.png" alt="Logo Servicio Técnico" class="nav-logo">
+        <img src="images/edubecam.png" alt="Logo Servicio Técnico Computación 1234 Iquique" class="nav-logo">
         <h2><a href="index.html">Servicio Técnico Computación 1234</a></h2>
       </div>
       
@@ -30,27 +43,45 @@
           <li><a href="portfolio.html">Portafolio</a></li>
           <li><a href="contact.html">Contacto</a></li>
         </ul>
-        <a href="https://heavily-tipped-whomever.ngrok-free.dev">
-          ☁️ Mi Nube
-        </a>
       </div>
     </div>
   </nav>
 
-  <!-- ==================== HERO (versión completa y bonita) ==================== -->
-    <section class="hero">
+  <!-- HERO -->
+  <section class="hero">
     <div class="hero-content">
-      <img src="images/el.png" alt="Servicio técnico" class="hero-side-img left">
+      <img src="images/el.png" alt="Servicio técnico computadoras Iquique" class="hero-side-img left">
       
       <div class="hero-text">
-        <h1>No te preocupes,<br>siempre tenemos la solución.</h1>
-        <p>SOLO TIENES QUE CONTACTARNOS Y ENCONTRAREMOS LA SOLUCIÓN</p>
-        <a href="contact.html" class="btn">📲 CONTACTO</a>
+        <h1>Servicio Técnico en Iquique: Reparación de PCs y Notebooks</h1>
+        <p>Reparación rápida, mantenimiento y optimización de computadoras en Iquique. ¡Contáctanos y resolvemos tu problema!</p>
+        <a href="contact.html" class="btn">📲 CONTACTO POR WHATSAPP</a>
       </div>
       
-      <img src="images/ella.png" alt="Diseño digital" class="hero-side-img right">
+      <img src="images/ella.png" alt="Reparación de notebooks Iquique" class="hero-side-img right">
     </div>
   </section>
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Servicio Técnico Computación 1234",
+    "image": "https://tudominio.com/images/edubecam.png",
+    "url": "https://tudominio.com",
+    "telephone": "+56951594289",
+    "email": "serviciotecnicopc1234@hotmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Iquique",
+      "addressRegion": "Tarapacá",
+      "addressCountry": "CL"
+    },
+    "openingHours": "Mo-Su 09:00-20:00",
+    "areaServed": "Iquique, Alto Hospicio"
+  }
+  </script>
 
   <!-- Footer -->
   <footer>
@@ -65,19 +96,17 @@
       <p>&copy; 2026 Todos los derechos reservados</p>
     </div>
   </footer>
+
 <script>
   let lastScroll = 0;
   const nav = document.querySelector('nav');
-
   window.addEventListener('scroll', () => {
     const currentScroll = window.pageYOffset;
-    
     if (currentScroll > lastScroll && currentScroll > 100) {
       nav.classList.add('nav-hidden');
     } else {
       nav.classList.remove('nav-hidden');
     }
-    
     lastScroll = currentScroll;
   });
 </script>
