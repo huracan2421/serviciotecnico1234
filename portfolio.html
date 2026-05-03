@@ -3,69 +3,68 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portafolio - Servicio Técnico Computación 1234</title>
+  <meta name="description" content="Portafolio de trabajos realizados: reparación de notebooks, limpieza interna, armado de PCs gamer en Iquique.">
+  <meta name="keywords" content="portafolio reparaciones Iquique, trabajos realizados servicio técnico Iquique">
+  <title>Portafolio - Trabajos Realizados en Iquique</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="canonical" href="https://tudominio.com/portfolio.html">
 </head>
 <body>
 
-  <!-- ==================== NAVEGACIÓN NUEVA ==================== -->
   <nav>
     <div class="nav-container">
       <div class="logo-container">
-        <img src="images/edubecam.png" alt="Logo Servicio Técnico" class="nav-logo">
+        <img src="images/edubecam.png" alt="Logo Servicio Técnico Computación 1234" class="nav-logo">
         <h2><a href="index.html">Servicio Técnico Computación 1234</a></h2>
       </div>
-      
-      <!-- Hamburguesa para celular -->
       <input type="checkbox" id="nav-toggle" class="nav-toggle">
       <label for="nav-toggle" class="nav-label">
         <span class="hamburger-line"></span>
         <span class="hamburger-line"></span>
         <span class="hamburger-line"></span>
       </label>
-      
-      <!-- Menú completo -->
-      
+      <div class="nav-menu">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="services.html">Servicios</a></li>
+          <li><a href="portfolio.html">Portafolio</a></li>
+          <li><a href="contact.html">Contacto</a></li>
+        </ul>
+      </div>
     </div>
   </nav>
 
   <section class="portfolio">
-    <h1>ALGUNOS TRABAJOS QUE HEMOS REALIZADO CON ÉXITO</h1>
-    <p class="portfolio-intro"></p>
-
+    <h1>Trabajos Realizados en Iquique</h1>
     <div class="portfolio-grid">
       <div class="portfolio-item">
-        <img src="images/servicio1.jpg" alt="Reparación de Notebook">
-        <h3>Reparación de Notebook</h3>
-        <p>Cambio de pantalla y teclado • 2026</p>
+        <img src="images/servicio1.jpg" alt="Reparación de Notebook Iquique - Cambio de pantalla" class="portfolio-img">
+        <h2>Reparación de Notebook</h2>
+        <p>Cambio de pantalla y teclado • Iquique 2026</p>
       </div>
       <div class="portfolio-item">
-        <img src="images/servicio2.jpg" alt="Limpieza y Mantenimiento">
-        <h3>Limpieza Interna y Pasta Térmica</h3>
-        <p>Equipos con sobrecalentamiento • 2026</p>
+        <img src="images/servicio2.jpg" alt="Limpieza interna y cambio de pasta térmica Iquique">
+        <h2>Limpieza y Mantenimiento</h2>
+        <p>Equipos con sobrecalentamiento • Iquique 2026</p>
       </div>
       <div class="portfolio-item">
-        <img src="images/servicio3.jpg" alt="Armado de PC">
-        <h3>Armado de PC Gamer</h3>
-        <p>Configuración completa • 2026</p>
+        <img src="images/servicio3.jpg" alt="Armado de PC Gamer Iquique">
+        <h2>Armado de PC Gamer</h2>
+        <p>Configuración completa • Iquique 2026</p>
       </div>
     </div>
   </section>
 
-  
 <script>
   let lastScroll = 0;
   const nav = document.querySelector('nav');
-
   window.addEventListener('scroll', () => {
     const currentScroll = window.pageYOffset;
-    
     if (currentScroll > lastScroll && currentScroll > 100) {
       nav.classList.add('nav-hidden');
     } else {
       nav.classList.remove('nav-hidden');
     }
-    
     lastScroll = currentScroll;
   });
 </script>
