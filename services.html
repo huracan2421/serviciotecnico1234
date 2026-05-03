@@ -3,28 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Servicios - Servicio Técnico Computación 1234</title>
+  <meta name="description" content="Servicios de reparación de computadoras en Iquique: cambio de pantalla, limpieza, eliminación de virus, mantenimiento y armado de PCs.">
+  <meta name="keywords" content="reparación PCs Iquique, cambio pantalla notebook Iquique, limpieza computadora Iquique, eliminación virus Iquique">
+  <title>Servicios - Reparación de PCs y Notebooks en Iquique</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="canonical" href="https://tudominio.com/services.html">
 </head>
 <body>
 
-    <!-- ==================== NAVEGACIÓN NUEVA ==================== -->
   <nav>
     <div class="nav-container">
       <div class="logo-container">
-        <img src="images/edubecam.png" alt="Logo Servicio Técnico" class="nav-logo">
+        <img src="images/edubecam.png" alt="Logo Servicio Técnico Computación 1234" class="nav-logo">
         <h2><a href="index.html">Servicio Técnico Computación 1234</a></h2>
       </div>
-      
-      <!-- Hamburguesa para celular -->
       <input type="checkbox" id="nav-toggle" class="nav-toggle">
       <label for="nav-toggle" class="nav-label">
         <span class="hamburger-line"></span>
         <span class="hamburger-line"></span>
         <span class="hamburger-line"></span>
       </label>
-      
-      <!-- Menú completo -->
       <div class="nav-menu">
         <ul>
           <li><a href="index.html">Inicio</a></li>
@@ -32,41 +30,37 @@
           <li><a href="portfolio.html">Portafolio</a></li>
           <li><a href="contact.html">Contacto</a></li>
         </ul>
-        
-        <a href="http://nubeserviciotecnico1234.duckdns.org/index.php/login?" target="_blank" class="btn-nube">
-          ☁️ Mi Nube
-        </a>
       </div>
     </div>
   </nav>
 
   <section class="services">
-    <h1>Nuestros Servicios</h1>
+    <h1>Nuestros Servicios de Reparación en Iquique</h1>
     
     <div class="services-grid">
       <div class="service-card">
-        <h3>Reparación de Computadores</h3>
-        <p>Reparación de hardware, cambio de pantalla, teclado, batería, ventiladores y más.</p>
+        <h2>Reparación de Computadores y Notebooks</h2>
+        <p>Cambio de pantalla, teclado, batería, bisagras y más en Iquique.</p>
       </div>
       <div class="service-card">
-        <h3>Eliminación de Virus y Optimización</h3>
-        <p>Limpieza profunda de virus, malware y optimización del rendimiento de tu equipo.</p>
+        <h2>Eliminación de Virus y Optimización</h2>
+        <p>Limpieza profunda y mejora de rendimiento.</p>
       </div>
       <div class="service-card">
-        <h3>Instalación de Software y Sistemas</h3>
-        <p>Instalación de Windows, Office, antivirus, programas y configuración completa.</p>
+        <h2>Instalación de Software y Windows</h2>
+        <p>Instalación limpia y configuración completa.</p>
       </div>
       <div class="service-card">
-        <h3>Mantenimiento Preventivo</h3>
-        <p>Limpieza interna, cambio de pasta térmica y mantenimiento para alargar la vida de tu equipo.</p>
+        <h2>Mantenimiento Preventivo</h2>
+        <p>Limpieza interna y cambio de pasta térmica.</p>
       </div>
       <div class="service-card">
-        <h3>Respaldo y Recuperación de Datos</h3>
-        <p>Respaldo de información importante y recuperación de archivos borrados.</p>
+        <h2>Respaldo y Recuperación de Datos</h2>
+        <p>Recuperamos tu información importante.</p>
       </div>
       <div class="service-card">
-        <h3>Armado y Actualización de PCs</h3>
-        <p>Armado de computadoras a medida y mejoras de componentes (RAM, SSD, tarjeta gráfica).</p>
+        <h2>Armado y Actualización de PCs</h2>
+        <p>PCs gamer y workstations personalizadas.</p>
       </div>
     </div>
   </section>
@@ -74,16 +68,13 @@
 <script>
   let lastScroll = 0;
   const nav = document.querySelector('nav');
-
   window.addEventListener('scroll', () => {
     const currentScroll = window.pageYOffset;
-    
     if (currentScroll > lastScroll && currentScroll > 100) {
       nav.classList.add('nav-hidden');
     } else {
       nav.classList.remove('nav-hidden');
     }
-    
     lastScroll = currentScroll;
   });
 </script>
